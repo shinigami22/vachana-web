@@ -41,7 +41,8 @@ group :development, :test do
   gem 'spring'
 end
 
-# gem 'rails-api'
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem "twitter-bootstrap-rails"
 gem 'will_paginate'
 gem "font-awesome-rails"
