@@ -43,5 +43,6 @@ end
 
 # gem 'rails-api'
 gem "twitter-bootstrap-rails"
-gem 'will_paginate', '~> 3.0.6'  
+gem 'will_paginate'
 gem "font-awesome-rails"
+gem 'rest-client'
