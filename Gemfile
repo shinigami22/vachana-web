@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 ruby '2.2.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+
+gem 'bootstrap-will_paginate', '~> 0.0.10' 
+gem 'bootstrap-sass'
 gem 'rails', '4.2.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

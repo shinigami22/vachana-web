@@ -1,0 +1,19 @@
+ <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">vachanakaara details</h3>
+  </div>
+  <div class="modal-body">
+    <div>
+   <h3 class="color"> <%= @info["pen_name"] %></h3>
+   <p><%= @info["place"] %></p>
+   <p><%= @info["spouse"] %></p>
+   <p><%= @info["father"] %></p>
+   <p><%= @info["mother"] %></p>
+   <p><%= @info["informations"] %></p>
+   <p><%= @info["about"] %></p>
+    </div>
+    <p class="sideLine"><%= link_to("Vachanas", {:action => 'show', :id => @info["id"]})%></p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>

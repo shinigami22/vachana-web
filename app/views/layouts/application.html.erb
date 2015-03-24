@@ -45,7 +45,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">VachanaWeb</a>
+          <h1 class><%=link_to t :title,{:controller => 'homes', :action => 'index'}%></h1>
+          <!--<a class="navbar-brand">VachanaWeb</a>-->
           <div class="navbar-collapse collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav">
             </ul>
@@ -56,11 +57,20 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-9">
+          <div id="search" class="container">
+            <div class="row">
+              <div class="col-lg-8"></div>
+              <div class="col-lg-4">
+               <%= render :partial => 'homes/search' %>
+               <br/>
+               </div>
+               </div>
+            </div>
             <%= bootstrap_flash %>
             <%= yield %>
           </div>
         </div><!--/row-->
-
+          <br/><br/>
         <footer>
           <p>&copy; Company 2015</p>
         </footer>

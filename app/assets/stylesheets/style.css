@@ -1,0 +1,55 @@
+.size
+{
+	border: solid 1px black;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+   
+
+    height: 400px;
+    margin-top: -200px;
+
+    width: 600px;
+    margin-left: -300px;
+}
+.infoBox {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    overflow: hidden;
+}
+.box {
+    background: none repeat scroll 0px 0px #FFF;
+    float: left;
+    height: 200px;
+    margin: 0px 10px 10px 0px;
+    width: 150px;
+    border-right: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-width: 1px 1px 2px;
+    border-style: solid;
+    border-color: #DDD #CCC #BBB;
+    border-radius: 10px;
+}
+
+.effect5{
+   position: relative;
+}
+h3{
+	position: relative;
+	text-align: center;
+	
+}
+h3.color{
+	color:blue;
+}
+.sideLine{
+	position: relative;
+	text-align: right;
+}

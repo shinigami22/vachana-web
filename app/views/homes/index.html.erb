@@ -1,1 +1,11 @@
-<%= @today_vachana %>
+<div class="container">
+    <% @today_lister.each do |s| %>
+      <%= link_to(info_path(:id => s["id"]),{:remote => true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window',}) do %>
+         <div class ="infoBox box effect5">
+         <h3><%=s['pen_name']%></h3> 
+        </div>
+      <% end %>
+    <% end %>
+      <div id="modal-window" class="modal fade size" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      </div>
+</div>

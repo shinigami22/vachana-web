@@ -1,0 +1,4 @@
+# config/locales/wk.yml
+wk:
+  hello_world: Ahoy World
+  title: VachanaWeb
